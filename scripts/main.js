@@ -27,3 +27,8 @@ console.log(sunflowerSeed)
 import {createWheat} from "./seeds/wheat.js"
 const wheatSeed = createWheat()
 console.log(wheatSeed)
+
+import {addPlant, usePlants} from "./field.js"
+addPlant(createPotato()) 
+const allPlants = usePlants()
+console.log("allPlants", allPlants)
